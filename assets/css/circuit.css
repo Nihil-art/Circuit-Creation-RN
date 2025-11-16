@@ -187,6 +187,18 @@ button:focus, a:focus { outline: 3px solid #cfe3ff; outline-offset: 2px; }
 #about-para4{
   text-align: center;
 }
+.projects-para{
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
+}
+.youframe{
+  width: 250px;
+  margin-top: 5px;
+  border-radius: 7px;
+  float: left;
+  margin-left: 5px;
+}
 @media (max-width: 980px) {
   
   .body, .right-section { display: block; width: 100%; max-width: 100%; padding: 0 16px; }
@@ -253,9 +265,14 @@ button:focus, a:focus { outline: 3px solid #cfe3ff; outline-offset: 2px; }
 #para11{
   font-size: 30px;
 }
+.youframe{
+  width: 50%;
+  margin-top: 5px;
+  border-radius: 7px;
+}
 @media (max-width: 480px) {
   .container { padding: 10px 12px; }
-  .local { font-size: 13px; text-align: left; padding-left: 6px; }
+  .local { font-size: 15px; text-align: left; padding-left: 6px; }
   .para { font-size: 28px; }
   .para3 { font-size: 20px; margin-left: 0; }
   .para4 { font-size: 15px; margin-left: 0; }
@@ -304,5 +321,39 @@ button:focus, a:focus { outline: 3px solid #cfe3ff; outline-offset: 2px; }
 }
 #para11{
   font-size: 26px;
+}
+.youframe{
+  width: 45%;
+  margin-top: 5px;
+  border-radius: 7px;
+}
+.projects-para{
+  font-size: 18px;}
+}
+@media(max-width:330px){
+  #img11{
+  width: 125px;
+  float: left;
+  margin: 5px;
+  border-radius: 6px;
+  box-shadow: 0 1px 10px;
+}
+#img22{
+  width: 125px;
+  float: left;
+  margin: 5px;
+  border-radius: 6px;
+  box-shadow: 0 1px 10px;
+}
+#img12{
+  margin: 10px;
+  width: 260px;
+  border-radius: 6px;
+  box-shadow: 0 1px 10px;
+}
+.youframe{
+  width: 80%;
+  margin-top: 5px;
+  border-radius: 7px;
 }
 }
