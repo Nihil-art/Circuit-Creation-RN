@@ -24,6 +24,9 @@ button { font-family: inherit; }
 .left {
   flex: 0 0 auto;
 }
+.whats{
+  width: 50%;
+}
 .local {
   font-weight: 800;
   font-size: clamp(18px, 2.8vw, 30px);
@@ -361,5 +364,13 @@ button:focus, a:focus { outline: 3px solid #cfe3ff; outline-offset: 2px; }
   }
   .project-para2{
     margin-top: 790px;
+  }
+}
+
+/* Prevent horizontal overflow on small screens which can trigger mobile auto-zoom */
+@media (max-width: 480px) {
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
   }
 }
